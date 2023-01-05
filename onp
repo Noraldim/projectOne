@@ -1,0 +1,30 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+
+
+ int x, x2 , f1, f2, f3;
+
+    cout << "G fonksiyonu icin deger giriniz  :";
+    cin >> x;
+
+//bir satırdaki fonksiyon    3 - (5 - f(x - 1))^2
+
+
+  x2 = x - 1;
+
+  f1 = 3 - x2*x2;
+
+  f2 = 5 - f1;
+
+
+  f3 = 3 - f2*f2;
+
+ cout << "Islem sonucu :" << f3 ;
+
+    return 0;
+}
